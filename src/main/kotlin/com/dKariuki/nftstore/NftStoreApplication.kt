@@ -1,11 +1,12 @@
 package com.dKariuki.nftstore
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class NftstoreApplication
+class NftStoreApplication
 
 fun main(args: Array<String>) {
-	runApplication<NftstoreApplication>(*args)
+	runApplication<NftStoreApplication>(*args)
 }
